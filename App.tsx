@@ -12,7 +12,7 @@ const App = () => {
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        paddingBottom: 135,
+        paddingTop: 250,
       }}>
       <FontAwesome name="wechat" size={155} style={{color: colors.red}} />
       <Text
@@ -24,6 +24,22 @@ const App = () => {
         }}>
         What's your Lingo
       </Text>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
+        <Text
+          style={{
+            color: colors.red,
+            fontFamily: font.style.chalkReg,
+            fontSize: font.size.med,
+            paddingRight: 15,
+          }}>
+          LingoSawp
+        </Text>
+      </View>
     </View>
   );
 };
